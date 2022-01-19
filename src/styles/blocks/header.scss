@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px;
+  color: $white;
+
+  &__logo {
+    margin-right: 12%;
+  }
+
+  &__menu {
+    margin-top: 8px;
+  }
+
+  &__list {
+    display: flex;
+    list-style: none;
+  }
+
+  li {
+    margin-left: 30px;
+  }
+
+  &__contacts {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+  }
+
+  &__info {
+    margin-left: auto;
+    font-size: 20px;
+    text-align: right;
+    color: $white;
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  &__whatsapp {
+    margin-left: auto;
+    margin-right: 30px;
+  }
+
+  &--background {
+    background-color: $black;
+  }
+}
